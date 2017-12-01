@@ -15,7 +15,7 @@
           <el-input type="password" v-model="ruleForm.reNewPassword" auto-complete="off" placeholder="再次输入新密码"></el-input>
         </el-form-item>
         <el-form-item prop="checkNo">
-          <el-input width='50px' type="password" v-model="ruleForm.checkNo" auto-complete="off" placeholder="验证码"></el-input>
+          <el-input width='50px' type="text" v-model="ruleForm.checkNo" auto-complete="off" placeholder="验证码"></el-input>
           <el-button type="primary" @click.native.prevent="sendCheckNo"  plain size="small">发送验证码到邮箱</el-button>
         </el-form-item>
         <el-form-item style="width:100%;">
